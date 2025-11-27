@@ -136,7 +136,3 @@ Stripe__PublishableKey=
 VITE_STRIPE_PUBLISHABLE_KEY=
 
 
----
-
-# 📄 License
-**MIT License**
