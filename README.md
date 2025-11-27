@@ -1,93 +1,91 @@
-✅ 1️⃣ Root README.md (PharmacySolution/README.md)
+# 📦 PharmacySolution
 
-(Describes whole project: architecture, tech stack, setup)
+A full-stack pharmacy management system built using a modern, scalable architecture:
 
-📦 PharmacySolution
+- **ASP.NET Core Web API** (backend)
+- **React + Vite + Tailwind CSS** (frontend)
+- **SQL Server + Entity Framework Core** (database)
+- **Stripe (optional)** for payments
 
-A full-stack pharmacy management system built with:
+---
 
-ASP.NET Core Web API (backend)
+## 📁 Solution Structure
 
-React + Vite + Tailwind (frontend)
-
-SQL Server + Entity Framework Core (database)
-
-Stripe (optional) for payment processing
-
-This solution includes:
 
 PharmacySolution
  ├── Pharmacy.Web          # ASP.NET Core backend
  ├── pharmacy-frontend     # React + Vite frontend
  └── PharmacySolution.sln  # Solution file
 
-🚀 Features
-💊 Medicine Management
 
-Add, update, view, and delete medicines
+---
 
-Stock tracking
+# 🚀 Features
 
-Price management
+## 💊 Medicine Management
+- Add, update, view, and delete medicines  
+- Stock and price tracking  
+- SQL-backed persistence  
 
-🛒 Shopping Cart
+## 🛒 Shopping Cart
+- Add/remove items  
+- Update quantities  
+- Auto-calculated totals  
 
-Add/remove items
+## 💳 Checkout Flow
+- Order summary  
+- Optional Stripe payment  
 
-Quantity updates
+## 🗃 Backend API
+- Fully RESTful endpoints  
+- EF Core migrations  
+- MVC + Repository Layer  
 
-Auto-calculated totals
+---
 
-💳 Checkout Flow
+# 🧱 Tech Stack
 
-Order summary
+## 🟩 Frontend
+- React  
+- Vite  
+- Tailwind CSS  
+- React Context API  
 
-Optional Stripe payment integration
+## 🟦 Backend
+- ASP.NET Core 8  
+- Entity Framework Core  
+- SQL Server / LocalDB  
 
-🗃 Backend API
+---
 
-RESTful endpoints for medicines and orders
+# ⚙️ Running the Project
 
-SQL database using EF Core migrations
+## 🟦 Running Backend (ASP.NET Core)
 
-🧱 Tech Stack
-Frontend:
-
-React
-
-Vite
-
-Tailwind CSS
-
-React Context API
-
-Backend:
-
-ASP.NET Core 8
-
-Entity Framework Core
-
-SQL Server / LocalDB
-
-⚙️ Running the Project
-🟦 Backend (ASP.NET Core)
+sh
 cd Pharmacy.Web
 dotnet build
 dotnet ef database update
 dotnet run
 
 
-Backend runs on:
+Runs at:  
 
 https://localhost:7224
 http://localhost:5000
 
 
-API endpoint example:
+Example API endpoint:  
+
 
 GET /api/medicineapi
 
-🟩 Frontend (React + Vite)
+
+---
+
+## 🟩 Running Frontend (React + Vite)
+
+sh
 cd pharmacy-frontend
 npm install
 npm run dev
@@ -95,18 +93,24 @@ npm run dev
 
 Frontend runs at:
 
+
 http://localhost:5173
 
-🗄 Database
 
-Entity Framework handles migrations automatically:
+---
 
+# 🗄 Database
+
+### Entity Framework commands:
+
+sh
 dotnet ef migrations add <Name>
 dotnet ef database update
 
 
-Medicine Model:
+### Example Model
 
+csharp
 public class Medicine {
     public int Id { get; set; }
     public string Name { get; set; }
@@ -114,14 +118,25 @@ public class Medicine {
     public int Stock { get; set; }
 }
 
-🔒 Environment Variables (Recommended)
 
-Backend (set via environment variables):
+---
+
+# 🔒 Environment Variables (Recommended)
+
+## Backend
+
 
 Stripe__SecretKey=
 Stripe__PublishableKey=
 
 
-Frontend (Vite):
+## Frontend (Vite)
+
 
 VITE_STRIPE_PUBLISHABLE_KEY=
+
+
+---
+
+# 📄 License
+**MIT License**
