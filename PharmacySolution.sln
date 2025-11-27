@@ -1,0 +1,35 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "iamgarry17", "iamgarry17", "{FB228115-1F29-BC21-B3B4-822D308CEB61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pharmacy.Web", "iamgarry17\Pharmacy.Web\Pharmacy.Web.csproj", "{6002169B-6E91-895E-86DD-52AD5E0E24DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pharmacy.Web", "Pharmacy.Web\Pharmacy.Web.csproj", "{6525DE16-43D4-4205-A547-16D6A04EFADC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6002169B-6E91-895E-86DD-52AD5E0E24DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6002169B-6E91-895E-86DD-52AD5E0E24DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6002169B-6E91-895E-86DD-52AD5E0E24DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6002169B-6E91-895E-86DD-52AD5E0E24DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6525DE16-43D4-4205-A547-16D6A04EFADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6525DE16-43D4-4205-A547-16D6A04EFADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6525DE16-43D4-4205-A547-16D6A04EFADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6525DE16-43D4-4205-A547-16D6A04EFADC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6002169B-6E91-895E-86DD-52AD5E0E24DF} = {FB228115-1F29-BC21-B3B4-822D308CEB61}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B1F32B2-00D0-4261-8927-ED228045AD1F}
+	EndGlobalSection
+EndGlobal
